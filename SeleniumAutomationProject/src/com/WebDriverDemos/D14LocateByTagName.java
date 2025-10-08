@@ -24,8 +24,8 @@ public class D14LocateByTagName {
 		//for(int i = 0; i < links.size(); i++)
 			//System.out.println(links.get(i).getText());
 		
-		for(WebElement l : links)
-			System.out.println(l.getText());
+		for(WebElement link : links)
+			System.out.println(link.getText());
 		
 		driver.close();
 	}
