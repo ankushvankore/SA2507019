@@ -1,5 +1,6 @@
 package com.WebDriverDemos;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -15,6 +16,7 @@ public class D17HandlingDropdownList {
 		driver.manage().window().maximize();
 
 		driver.get("https://register.rediff.com/register/register.php?FormName=user_details");
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		
 		WebElement drpList = driver.findElement(By.id("country"));
 		Select countries = new Select(drpList);

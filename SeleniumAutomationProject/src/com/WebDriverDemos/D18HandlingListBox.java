@@ -38,7 +38,6 @@ public class D18HandlingListBox {
 			for (WebElement sc : selectedCars)
 				System.out.println(sc.getText());
 		}
-		
 		//cars.deselectByVisibleText("Swift");
 		//cars.deSelectByContainsVisibleText("Sw");
 		//cars.deselectByIndex(1);
