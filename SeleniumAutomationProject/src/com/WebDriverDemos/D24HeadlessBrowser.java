@@ -2,17 +2,20 @@ package com.WebDriverDemos;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
-public class D23HandlingTable {
+public class D24HeadlessBrowser {
 
 	public static void main(String[] args) {
-		WebDriver driver = new ChromeDriver();
+		ChromeOptions op = new ChromeOptions();
+		op.addArguments("--headless");
+		
+		WebDriver driver = new ChromeDriver(op);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -23,16 +26,6 @@ public class D23HandlingTable {
 		
 		for(WebElement th : headers)
 			System.out.println(th.getText());
-		
-		List<WebElement>rows = driver.findElements(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr"));
-		System.out.println("Total Rows: " + rows.size());
-		
-		Random rnd = new Random();
-		int i = rnd.nextInt(rows.size()-1);
-		
-		System.out.println(rows.get(i).getText());
-		
-		System.out.println(driver.findElement(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr["+ (i+1) +"]")).getText());
 		
 		driver.close();
 	}
