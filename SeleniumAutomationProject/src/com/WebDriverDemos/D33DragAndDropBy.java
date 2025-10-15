@@ -28,7 +28,9 @@ public class D33DragAndDropBy {
 		int x = slider.getLocation().x;
 		int y = slider.getLocation().y;
 		
-		act.dragAndDropBy(slider, x+200, y).perform();
+		act.dragAndDropBy(slider, x + 200, y).perform();
+		
+		System.out.println(slider.getSize());
 	}
 
 }
