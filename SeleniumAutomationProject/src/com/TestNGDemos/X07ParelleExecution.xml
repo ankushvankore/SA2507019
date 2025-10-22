@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name = "Online Shopping Applications" parallel = "methods" thread-count = "4">
+<suite name = "Online Shopping Applications" parallel = "methods" thread-count = "2">
 	<test name = "Parallel Execution">
 		<classes>
 			<class name = "com.TestNGDemos.D02TestOSApplication">

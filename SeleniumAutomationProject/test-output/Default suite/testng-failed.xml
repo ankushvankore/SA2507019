@@ -3,18 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGDemos.D05BigBasketAssignment">
+      <class name="com.TestNGDemos.D09POM_Client">
         <methods>
-          <include name="clickOnGhee"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
-          <include name="beforeMethod"/>
+          <include name="registration1"/>
           <include name="afterTest"/>
-          <include name="clickOnNanadhini"/>
-          <include name="clickTea"/>
-          <include name="clickOnExoticFruit"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.TestNGDemos.D05BigBasketAssignment -->
+      </class> <!-- com.TestNGDemos.D09POM_Client -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
