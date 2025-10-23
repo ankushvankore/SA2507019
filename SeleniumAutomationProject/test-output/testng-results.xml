@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-22T22:29:15 IST" name="Default suite" finished-at="2025-10-22T22:29:28 IST" duration-ms="12657">
+  <suite started-at="2025-10-23T22:21:35 IST" name="Default suite" finished-at="2025-10-23T22:21:37 IST" duration-ms="1693">
     <groups>
     </groups>
-    <test started-at="2025-10-22T22:29:15 IST" name="Default test" finished-at="2025-10-22T22:29:28 IST" duration-ms="12657">
-      <class name="com.TestNGDemos.D09POM_Client">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D09POM_Client@22555ebf]" started-at="2025-10-22T22:29:15 IST" name="beforeTest" finished-at="2025-10-22T22:29:20 IST" duration-ms="5234" status="PASS">
+    <test started-at="2025-10-23T22:21:35 IST" name="Default test" finished-at="2025-10-23T22:21:37 IST" duration-ms="1693">
+      <class name="com.TestNGDemos.D13ReadFromExcel">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D13ReadFromExcel@3fc2959f]" started-at="2025-10-23T22:21:35 IST" name="beforeTest" finished-at="2025-10-23T22:21:37 IST" duration-ms="1578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="refreshPage()[pri:0, instance:com.TestNGDemos.D09POM_Client@22555ebf]" started-at="2025-10-22T22:29:20 IST" name="refreshPage" finished-at="2025-10-22T22:29:23 IST" duration-ms="2579" status="PASS">
+        <test-method signature="readAllData()[pri:0, instance:com.TestNGDemos.D13ReadFromExcel@3fc2959f]" started-at="2025-10-23T22:21:37 IST" name="readAllData" finished-at="2025-10-23T22:21:37 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- refreshPage -->
-        <test-method signature="registration1()[pri:0, instance:com.TestNGDemos.D09POM_Client@22555ebf]" started-at="2025-10-22T22:29:23 IST" name="registration1" finished-at="2025-10-22T22:29:24 IST" duration-ms="1178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration1 -->
-        <test-method is-config="true" signature="refreshPage()[pri:0, instance:com.TestNGDemos.D09POM_Client@22555ebf]" started-at="2025-10-22T22:29:24 IST" name="refreshPage" finished-at="2025-10-22T22:29:26 IST" duration-ms="2511" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- refreshPage -->
-        <test-method signature="registration2()[pri:0, instance:com.TestNGDemos.D09POM_Client@22555ebf]" started-at="2025-10-22T22:29:26 IST" name="registration2" finished-at="2025-10-22T22:29:28 IST" duration-ms="1069" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D09POM_Client@22555ebf]" started-at="2025-10-22T22:29:28 IST" name="afterTest" finished-at="2025-10-22T22:29:28 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- readAllData -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D13ReadFromExcel@3fc2959f]" started-at="2025-10-23T22:21:37 IST" name="afterTest" finished-at="2025-10-23T22:21:37 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D09POM_Client -->
+      </class> <!-- com.TestNGDemos.D13ReadFromExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
