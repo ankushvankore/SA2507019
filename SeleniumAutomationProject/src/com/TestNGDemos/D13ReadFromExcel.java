@@ -34,10 +34,12 @@ public class D13ReadFromExcel {
 	
 	@Test
 	public void readAllData() {
-		for(int i = 0; i < 5; i++)
+		int rows = sheet.getPhysicalNumberOfRows();
+		int cells = sheet.getRow(0).getPhysicalNumberOfCells();
+		for(int i = 0; i < rows; i++)	//Rows
 		{
 			row = sheet.getRow(i);
-			for(int j = 0; j < 3; j++)
+			for(int j = 0; j < cells; j++)	//Cells
 			{
 				cell = row.getCell(j);
 				String data = cell.getStringCellValue();
