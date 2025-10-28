@@ -2,3 +2,9 @@ Apache POI
 https://archive.apache.org/dist/poi/release/bin/
 Download last 4th file ie poi-bin-5.2.3-20220909.zip    
 
+Extent Report Dependency
+https://mvnrepository.com/artifact/com.aventstack/extentreports
+
+Cucumber skeleton
+https://github.com/cucumber/cucumber-java-skeleton/commit/d7249b50c570816eba27ce94557e1de7e9b0f97
+
