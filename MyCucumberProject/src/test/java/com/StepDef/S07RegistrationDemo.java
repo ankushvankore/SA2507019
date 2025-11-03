@@ -15,20 +15,18 @@ public class S07RegistrationDemo {
 	@When("Enter following data")
 	public void enter_following_data(io.cucumber.datatable.DataTable dataTable) {
 		System.out.println(dataTable);
-		
-		List<List<String>>data = dataTable.asLists();
+
+		List<List<String>> data = dataTable.asLists();
 		System.out.println(data);
-		
+
 		System.out.println(data.get(0).get(0));
-		
-		for(List<String> d : data)
-		{
+
+		for (List<String> d : data) {
 			System.out.println(d);
 		}
-		
-		for(List<String>d : data)
-		{
-			for(String d1 : d)
+
+		for (List<String> d : data) {
+			for (String d1 : d)
 				System.out.println(d1);
 		}
 	}

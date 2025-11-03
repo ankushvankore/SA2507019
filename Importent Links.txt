@@ -8,3 +8,8 @@ https://mvnrepository.com/artifact/com.aventstack/extentreports
 Cucumber skeleton
 https://github.com/cucumber/cucumber-java-skeleton/commit/d7249b50c570816eba27ce94557e1de7e9b0f97
 
+Project video
+https://drive.google.com/drive/folders/1Qo7mYlxQZnT13hbomki1l5lgoo8npoA4
+
+Java Interview Questions
+https://www.geeksforgeeks.org/java/java-interview-questions/
